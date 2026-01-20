@@ -1,0 +1,30 @@
+/* Global styles for TeleAuto Pro */
+
+:root {
+  --primary: #135bec;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #3b4354;
+  border-radius: 10px;
+}
+
+/* Base Tailwind-like utilities if needed elsewhere */
+.bg-primary {
+  background-color: var(--primary);
+}
