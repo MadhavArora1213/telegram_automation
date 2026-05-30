@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://kashishsingh-telegram-automation.hf.space';
 const AUTH_KEY = 'telegram_secret_key_123'; // In a real app, this should be in .env
 
 const headers = {
